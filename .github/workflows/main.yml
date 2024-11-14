@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
     
 jobs:
-  testcopy:
+  test:
     runs-on: ubuntu-latest  # Replace with desired runner OS (e.g., macOS, Windows)
 
     steps:
@@ -28,7 +28,7 @@ jobs:
 
 
   deploy:
-    needs: testcopy
+    needs: test
     runs-on: ubuntu-latest
     #if: ${{ always() }}  # Always run the deployment job, even if tests fail
     steps:
