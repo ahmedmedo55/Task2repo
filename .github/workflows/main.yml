@@ -28,7 +28,7 @@ jobs:
 
 
   deploy:
-    needs: test
+    needs: testcopy
     runs-on: ubuntu-latest
     #if: ${{ always() }}  # Always run the deployment job, even if tests fail
     steps:
