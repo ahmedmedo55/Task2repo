@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
     
 jobs:
-  test:
+  testcopy:
     runs-on: ubuntu-latest  # Replace with desired runner OS (e.g., macOS, Windows)
 
     steps:
