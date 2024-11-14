@@ -11,7 +11,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_area(self):
         # Test area of circle rule functionality
-        result = self.calc_area(10)
+        result = self.calc_area.area_of_circle(10)
         self.assertEqual(result, 314)
 
 
