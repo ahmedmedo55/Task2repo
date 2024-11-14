@@ -24,7 +24,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m unittest test.py  # Replace with your test execution command (e.g., pytest)
+          python -m unittest testcopy.py  # Replace with your test execution command (e.g., pytest)
 
 
   deploy:
